@@ -10,7 +10,7 @@ class Command(BaseCommand):
         user = User.objects.create(
             email="admin@sky.pro",
             first_name="Admin",
-            tg_chat_id="1567728836",
+            tg_chat_id="475499216",
             last_name="SkyPro",
             is_active=True,
             is_staff=True,
