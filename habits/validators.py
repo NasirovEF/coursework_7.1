@@ -46,6 +46,7 @@ def validate_nice_navent_prize_and_related(data):
     if data.get("is_nice"):
         if data.get("related") or data.get("prize"):
             return message
+        return ""
     else:
         return ""
 
